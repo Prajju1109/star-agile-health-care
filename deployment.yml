@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: healthcare-app
-          image: prajju1109/healthcare:v1   # use your actual image
+          image: prajju1109/healthcareimages:v1   # use your actual image
           ports:
             - containerPort: 8082
 ---
